@@ -1,0 +1,16 @@
+[package]
+name = "refactoring-patterns"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "extract_function"
+path = "src/extract_function.rs"
+
+[[bin]]
+name = "inline_function"
+path = "src/inline_function.rs"
+
+[[bin]]
+name = "introduce_parameter_object"
+path = "src/introduce_parameter_object.rs"
