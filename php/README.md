@@ -129,9 +129,19 @@ All code follows PHP best practices:
 - **Readonly properties**: Using PHP 8.1+ readonly properties where appropriate
 - **DocBlocks**: Comprehensive documentation for all classes and methods
 
+## Running with Docker
+
+No local PHP installation needed. Just run:
+
+```bash
+docker compose run --rm php
+```
+
+This validates syntax and runs all demonstrations using a bind-mounted volume, so file changes are reflected immediately.
+
 ## Requirements
 
-- PHP 8.1 or higher (for readonly properties)
+- PHP 8.1 or higher (for readonly properties), or Docker
 - No external dependencies required
 
 ## Learning Resources
